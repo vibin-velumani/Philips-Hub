@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      .special{
+        background-color: black;
+        color: white;
+        height:100%;
+      }
+      
+      h2 {
+        font-size:40px;
+      }
+  
+       #sidiv {
+           border:2mm;
+           border-color: gainsboro;
+       } 
+  
+       input[type=text],input[type=password]{
+           border-radius: 10px;
+           width: 7cm;
+          
+       }
+  
+       .optbtn {
+          padding:10px;
+          background-color: rgb(78, 173, 233); 
+          color: white; 
+          border: 2px solid grey;
+          border-radius : 8px;
+          width:4cm;
+          font-size: large;
+       }
+       .loginbtnsub{
+        
+        padding:15px;
+          background-color: rgb(78, 173, 233); 
+          color: white; 
+          border: 2px solid grey;
+          border-radius : 8px;
+          width:4cm;
+          font-size: large;
+       }
+  
+       .loginbtnsub:hover {
+          background-color: red;
+          color: black;
+       }
+       
+       .form-control {
+          margin-left: 102px;
+         
+       }
+       .left{
+        background-image: url("philips.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 100vh;
+       }
+       .right{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .log_con{
+        text-align: center;
+        border-width: 2px;
+        border-radius: 40px;
+        border-color: rgb(110, 169, 225);
+        border-style: solid;
+        background-color:black;
+        padding: 40px;
+        margin-left :4%;
+        line-height: 0.3cm;
+       }
+       .eff:hover{
+        transform:scale(1.25);
+       }
+       .icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(110, 169, 225);
+}
+       
+    </style>
+  </head>
+  <body>
+      <div class="container-fluid special" >
+          <div class="row">                                  <!---     For taking one row         --->
+            <div class="col-md-7 left">  
+                
+            </div>
+            <div class="col-md-5 align-center right">
+                <form  class="log_con" id="sifrm" >
+                    <br><br>
+                         <div class="logo-head">
+                        
+                        <h3 class="eff" ><b>Shree Maruthi Agencies</b></h3>
+                        </div>
+                         <h2 style="color:rgb(28, 138, 228);"><b>Sign In</b></h2><br><br>
+      
+                         
+                            <button type="button" class="btn btn-primary optbtn">Dealer</button>
+                            <button type="button" class="btn btn-primary optbtn">Shopkeeper</button>
+                    
+                         <br><br><br>
+      
+                         <div class="uinputs">
+                            
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="text" class="form-control" id="ename" placeholder="eName" name="ename">
+                                <label for="ename">Email</label>
+                              </div>
+                            <div class="form-floating mb-3 mt-3">
+                              <input type="text" class="form-control" id="uname" placeholder="UserName" name="uname">
+                              <label for="uname">UserName</label>
+                            </div>
+                            <div class="form-floating mt-3 mb-3">
+                              <input type="password" class="form-control" id="pwd" placeholder="Password" name="pswd">
+                              <label for="pwd">Password</label>
+                            </div>
+                         </div>
+                    
+                    <br><br>     
+                    <button type="button" class="loginbtnsub" id="sibt" onclick=" "><b>Sign Up</b></button>
+                    <br><br><br>
+                    <p >Have an account ? <a href="index.html" style="color: red; text-decoration: none;">Login</a></p>
+                    <br><br>
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                </form>    
+            
+            
+            
+            
+            </div>
+          </div>
+      </div>
+      <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+  </html
